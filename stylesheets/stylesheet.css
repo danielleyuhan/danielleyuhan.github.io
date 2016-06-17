@@ -121,7 +121,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #FFF0F5;
+  color: ##FFE4E1;
   text-decoration: underline;
 }
 
@@ -272,7 +272,7 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
+  background: 	#FFE4E1;
 }
 
 #header_wrap .inner {
@@ -335,7 +335,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: white;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -345,7 +345,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #FFE4E1;
 }
 
 
