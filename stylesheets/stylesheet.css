@@ -271,28 +271,8 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#forkme_banner {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 10px;
-  z-index: 10;
-  padding: 10px 50px 10px 10px;
-  color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
-}
-
 #header_wrap {
   background: #212121;
-  background: -moz-linear-gradient(top, #D3D3D3, #FFF0F5);
-  background: -webkit-linear-gradient(top, #D3D3D3, #FFF0F5);
-  background: -ms-linear-gradient(top, #D3D3D3, #FFF0F5);
-  background: -o-linear-gradient(top, #D3D3D3, #FFF0F5);
-  background: linear-gradient(top, #D3D3D3, #FFF0F5);
 }
 
 #header_wrap .inner {
@@ -304,7 +284,7 @@ Full-Width Styles
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: none;
 }
 
 #project_tagline {
@@ -312,7 +292,7 @@ Full-Width Styles
   font-size: 24px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: none;
 }
 
 #downloads {
