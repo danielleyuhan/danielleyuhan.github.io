@@ -53,7 +53,7 @@ body {
   color:#D3D3D3;
   background: #D3D3D3;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'Karla', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#A9A9A9;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  font-family: 'Karla', sans-serif;
   letter-spacing: -1px;
 }
 
@@ -140,12 +140,6 @@ img {
   padding: 5px;
   margin: 10px 0 10px 0;
   border: none;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 p img {
@@ -162,7 +156,7 @@ pre, code {
   color: #222;
   background-color: #fff;
 
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'Karla', sans-serif;
   font-size: 14px;
 
   border-radius: 2px;
@@ -277,6 +271,7 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  text-align: center;
 }
 
 #project_title {
@@ -284,7 +279,7 @@ Full-Width Styles
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: none;
+  text-shadow: -5px 6px 10px #fbd1cd;
 }
 
 #project_tagline {
