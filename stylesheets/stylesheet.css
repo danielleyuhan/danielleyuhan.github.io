@@ -50,8 +50,8 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color:#D3D3D3;
-  background: #D3D3D3;
+  color:#FFE4E1;
+  background: #FFE4E1;
   font-size: 16px;
   font-family: 'Karla', sans-serif;
   line-height: 1.5;
@@ -61,7 +61,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#A9A9A9;
+  color:#FFE4E1;
   font-family: 'Karla', sans-serif;
   letter-spacing: -1px;
 }
@@ -83,7 +83,7 @@ p {
 }
 
 footer p {
-  color: #FFF0F5;
+  color: #FFF;
 }
 
 a {
@@ -245,14 +245,19 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 80%;
   padding: 20px 10px;
   margin: 0 auto;
 }
 
 #header_wrap {
-  background: 	#FFE4E1;
+  background: #FFE4E1;
   height:100vh;
+}
+
+#header_page {
+	background: #FFE4E1;
+	height: 40px;
 }
 
 #header_wrap .inner {
@@ -288,20 +293,9 @@ Full-Width Styles
 
 #about{
     height:100vh;
+    width: 100%;
 }
 
-#about .col{
-  float: left;
-}
-
-#about_pic{
-  padding-right:20px;
-}
-
-#about_bio{
-  padding-left: 20px;
-  height: 384;
-}
 
 .hilight{
   background-color:#FFE4E1;
@@ -311,6 +305,14 @@ Full-Width Styles
   width:auto;
   color:white;
   clear:both;
+}
+
+a.header{
+	color: #fff;
+	margin: 50px 10px; 
+	font-size: 25px;
+	font-family: Helvetica;
+	
 }
 
 p.hilight{
